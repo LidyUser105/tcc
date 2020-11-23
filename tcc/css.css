@@ -1,0 +1,49 @@
+input{
+  width:330px;
+  padding:10px;
+  margin: auto;
+}
+#esquerda{
+  width: 35%;
+  height: 500px;
+  float: left;
+}
+#direita{
+  width: 65%;
+  height: 500px;
+  float: left;
+}
+
+*{
+  padding: 0px;
+  margin:0px;
+}
+
+tr{
+  line-height: 30px;
+}
+
+table {
+  font: 100% sans-serif;
+  background-color: #efe;
+  border-collapse: collapse;
+  empty-cells: show;
+  border: 1px solid #7a7;
+  }
+
+table > caption {
+  text-align: left;
+  font-weight: bold;
+  font-size: 200%;
+  border-bottom: .2em solid #4ca;
+  margin-bottom: .5em;
+  }
+
+.seg{
+  position: absolute; 
+  left: 90px; /* posiciona a 90px para a esquerda */ 
+  top: 70px;
+}
+h1{
+  font-family:Didot, serif;
+  }
